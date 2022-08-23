@@ -4,52 +4,123 @@ body {
     background-attachment: scroll
 }
 
------ 
- /* first-container */
- ------
+-----
 
+/* first-container */
+------ h1 {
+    font-size: 70px;
 
-
-
- h1{
-  font-size: 70px;
-  
-}
-h1{
-  font-size: 70px;
-}
-h2{
-  font-size: 35px;
 }
 
-#img{
-    position: absolute;
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#img {
+
     width: 1440px;
-     height: 669px;
+    height: 669px;
 }
 
 
- .first-text{
-  position: absolute;
-  width: 826px;
-  height: 320px;
-  left: 320px;
-  top: 50px;
-  text-align: center;
-  color: white;
- }
- 
-.first-p{
-  margin-bottom: 20px;
+.first-text {
+    position: absolute;
+    width: 826px;
+    height: 320px;
+    left: 320px;
+    top: 50px;
+    text-align: center;
+    color: white;
 }
 
-.link-button{
-  text-decoration: none;
-  background-color: #FF5959;
-  color: white;
-  font-weight: 400;
-  padding: 5px 5px;
-  border-radius: 5px;
-  text-align: center;
-  margin-top: 50px;
+.first-p {
+    margin-bottom: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    font-weight: 400;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.second-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mini-box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px 400px;
+    color: #707070;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#back-color {
+    height: 70px;
+    width: 85px;
+    left: 70px;
+    top: 70px;
+    right: 70px;
+    border-radius: nullpx;
+    background: white;
+    border-radius: 5px;
+
+}
+
+#linen-color {
+    height: 70px;
+    width: 85px;
+    left: 70px;
+    top: 70px;
+    border-radius: 5px;
+    right: 70px;
+    background: white;
+    border-radius: 5px;
+
+}
+
+#margin {
+    text-align: center;
+    color: #B3B3B3;
+}
+
+.line {
+    width: 770px;
+    height: 0px;
+    left: 350px;
+    top: 700px;
+    border-bottom: 2px solid #8a8a8a;
+    margin-top: 30px;
+
+}
+
+.p-text {
+    position: absolute;
+    width: 192px;
+    height: 28px;
+    left: 650px;
+    top: 770px;
+    margin-top: 300px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* margin-top: ; */
 }
