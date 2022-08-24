@@ -88,25 +88,53 @@ h2 {
     top: 70px;
     border-radius: 5px;
     right: 70px;
-    background: white;
+    background:coral;
     border-radius: 5px;
+    box-shadow:10px coral ;
+    background-repeat: no-repeat;
+
+
 
 }
-
-#margin {
+/* 
+.margin{
     text-align: center;
-    color: #B3B3B3;
-}
+   color: #B3B3B3;;
+  }
+  .line{
+    
+       position: absolute;
+      width: 770px;
+      height: 0px;
+      left: 350px;
+      top: 800px;
+      border-bottom: 2px solid #a8a8a8a2;
+      margin-top: 300px;
+     
+  }
+  .p-text{
+    position: absolute;
+    width: 192px;
+    height: 28px;
+    left: 650px;
+    top: 770px;
+    margin-top: 300px;
+    
+  } **/
+  
+  .link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 10px;
+    gap: 8px;
+    margin-top: 2px;
+  } 
 
-.line {
-    width: 770px;
-    height: 0px;
-    left: 350px;
-    top: 700px;
-    border-bottom: 2px solid #8a8a8a;
-    margin-top: 30px;
 
-}
+
+
 
 .p-text {
     position: absolute;
@@ -116,7 +144,8 @@ h2 {
     top: 770px;
     margin-top: 300px;
 }
-.line{
+
+.line {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -124,3 +153,144 @@ h2 {
     gap: 8px;
     /* margin-top: ; */
 }
+ .thard-section{
+    text-align: center;
+    margin-top: 50px;
+}
+/**
+ .flexible-container   {
+
+     display: flex;
+    box-shadow: 30px 30px 70px moccasin;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding:40px ;
+    
+ }
+    .half-witdh{
+         box-shadow: 20px 20px 20px 70p/x cornsilk
+    }
+
+
+    .flexible-container{
+        display: flex;
+        margin-bottom: 120px;
+        margin-top: 80px;
+        margin-left: 70px;
+        margin-right: 70px;
+      }
+      
+      .experience-item{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px rgb(83, 197, 83);
+      }
+      .icon-pic{
+          width: 15%; 
+          padding-left: 5%;
+          padding-top: 10px;
+      }
+      #web-dev{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice: 1;
+        background-color: wheat;
+      }
+      #stack-dev{
+        border-left: 7px solid;
+        border-image: linear-gradient(red,rgb(235, 232, 231)) ;
+        border-image-slice: 1;
+        background-color: white;
+      }
+      #Goals-dev{
+        border-left: 7px solid;
+        border-image: linear-gradient(rgb(22, 22, 24),cyan);
+        border-image-slice:1 ;
+        background-color: cyan;
+      }
+      
+      .half-width{width: 50%;
+        padding-left: 5%;
+      }
+       .half-width img{
+       width: 400px;
+       height: 400px;
+       left: 500px;
+       right: 500px;
+       top: 2500px;
+        border-radius: 20px;
+      } 
+      .lest-color{
+        color: #707070;
+      } */
+
+   
+
+       
+      .flexible-donation{
+        display: flex;  
+         
+      }
+      .half-witdh{
+        width: 50%;
+        padding-left: 3%;
+        box-shadow: 10px 10px 30px white ;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        
+      }
+      #color1{
+        background-color: paleturquoise;
+      }
+      #shelter{
+        background-color: aquamarine;
+      }
+      #education{
+        background-color: aqua;
+      }
+      .our-plan{
+        margin-top: 40px;
+      }
+    .five-time-donation{
+        display: flex;
+        margin-top: 80px;
+         }
+      .lives-depend{
+     
+        /* box-shadow:10px 10px whitesmoke; */
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        padding: 5%;
+      }
+      .lsive{
+        /* box-shadow: 10px 10px whitesmoke; */
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        padding: 5%;
+      }
+      .five-time-doneted{
+        display: flex;
+      }
+     #img2{
+       height: 400px;
+       width: 700px;
+       border-radius: 10px;
+       margin-left: 20px;
+
+     }
+     .get-my{
+       text-align: center;
+       margin-left: 10px;
+       margin-right: 10px;
+      
+     }
+     
+
+   
